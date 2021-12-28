@@ -32,6 +32,7 @@ app.get(":endpoint([\\/\\w\\.-]*)", (req, res) => {
       res.json(error);
     });
 });
+
 app.listen(5000, () => {
-  console.log("Server started on port 3000");
+  console.log("Server started on port 5000");
 });
